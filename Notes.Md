@@ -1,4 +1,6 @@
 
+Follow the instruction
+
 Step 1 
 install: python -m pip install fastapi "uvicorn[standard]" httpx
 
@@ -18,8 +20,12 @@ Notes
     
 
 
+always run this two
+        - python -m uvicorn server:app --host 0.0.0.0 --port 3000
+        - python -m http.server 5500
 
-
+then access on this on web
+        - http://localhost:5500/index.html
 
      
 
